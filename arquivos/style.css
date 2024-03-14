@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+#tela1{
+    background-color: #3949AB;
+}
+
+#login{
+    background-color: #ffffff;
+    width:486px;
+    height: 743px;
+    left: 732px;
+    position: fixed;
+}
+
+
+#login h1{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 134px;
+    text-align: center; 
+    color: #343434;
+    margin-bottom: 64px;
+}
+
+#login input{
+    margin-left: 64px;
+    width: 358px;
+    height: 40px;
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+}
+
+#email{
+    background-image: url(/images/email.svg);
+    background-repeat: no-repeat;
+    background-position: 8px, 326px, 8px, 8px ;
+    
+}
+
+#senha{
+    margin-bottom: 16px;
+    background-image: url(/images/senha.svg);
+    background-repeat: no-repeat;
+    background-position: 8px, 326px, 8px, 8px ;
+}
+
+
+
+a{
+    color: #6F74DD;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 306px;
+    margin-top: 20px;
+    text-align: end;
+}
+
+button{
+    font-size: 14px;
+    border-radius: 40px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#blogin {
+    background-color: #3949AB;
+    color: white;
+    width: 358px;
+    border: none;
+    margin-top: 32px;
+    margin-left: 64px; 
+    margin-right: 64px;
+}
+
+#registration{
+    background-color: white;
+    color: #3949AB;
+    width: 358px;
+    border: 1px solid #3949AB;
+    margin-top: 16px;
+    margin-left: 64px; 
+    margin-right: 64px;
+}
+
+p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #828282;
+    text-align: center; 
+    margin-bottom: 0px;
+}
+
+#small button{
+    background-color: white;
+    color: #3949AB;
+    width: 175px;
+    border: 1px solid #3949AB;
+}
+
+#small{
+    margin-top: 8px;
+    margin-left: 64px; 
+    margin-right: 64px;
+    margin-bottom: 24px;
+}
+
+#google{
+    background-image: url(/images/google.svg);
+    background-repeat: no-repeat;
+    background-position: 8px, 2px, 8px, 108px ;
+}
+
+#gitlab{
+    background-image: url(/images/gitlab.svg);
+    background-repeat: no-repeat;
+    background-position: 8px, 2px, 8px, 108px ;
+}
+
+::placeholder{
+    margin-left: 16px;
+    padding-left: 10%;
+
+}
