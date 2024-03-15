@@ -38,6 +38,24 @@
     
 }
 
+
+#email:hover{
+    width: 310px;
+    padding-left: 10%;
+}
+
+#senha:hover{
+    width: 310px;
+    padding-left: 10%;
+}
+
+::placeholder{
+    margin-left: 16px;
+    padding-left: 10%;
+
+}
+
+
 #senha{
     margin-bottom: 16px;
     background-image: url(/images/senha.svg);
@@ -47,7 +65,7 @@
 
 
 
-a{
+#inputs a{
     color: #6F74DD;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -66,7 +84,7 @@ button{
     font-weight: 400;
 }
 
-#blogin {
+.blogin {
     background-color: #3949AB;
     color: white;
     width: 358px;
@@ -74,6 +92,11 @@ button{
     margin-top: 32px;
     margin-left: 64px; 
     margin-right: 64px;
+}
+
+.blogin:hover {
+    background-color: #4859c7;
+
 }
 
 #registration{
@@ -84,6 +107,10 @@ button{
     margin-top: 16px;
     margin-left: 64px; 
     margin-right: 64px;
+}
+
+#registration:hover{
+    background-color: #f0f0f0;
 }
 
 p{
@@ -100,6 +127,7 @@ p{
     color: #3949AB;
     width: 175px;
     border: 1px solid #3949AB;
+    padding-left: 8%;
 }
 
 #small{
@@ -112,17 +140,23 @@ p{
 #google{
     background-image: url(/images/google.svg);
     background-repeat: no-repeat;
-    background-position: 8px, 2px, 8px, 108px ;
+    background-position: 32% ;
+    
 }
+
+#google:hover{
+    background-color: #f0f0f0;
+}
+
 
 #gitlab{
     background-image: url(/images/gitlab.svg);
     background-repeat: no-repeat;
-    background-position: 8px, 2px, 8px, 108px ;
+    background-position: 32%;
 }
 
-::placeholder{
-    margin-left: 16px;
-    padding-left: 10%;
-
+#gitlab:hover{
+    background-color: #f0f0f0;
 }
+
+
