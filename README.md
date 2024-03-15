@@ -1,6 +1,6 @@
 ![](/images/img1.png "Capa.")
 
-# Site otimizado
+# Tela de Login
 Site criado durante módulo de HTMl e CSS na Infinity School
 
 ## Tecnologias
