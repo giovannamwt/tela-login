@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/arquivos/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Welcome Page</title>
 </head>
 <body>
     <main>
-        <div id="tela1"></div>
+
+        <div id="tela1">
+            <img src="/images/logo.png" alt="logo" id="logo">
+            <div id="ball"></div>
+            <img src="/images/boneco.png" alt="astronauta" id="boneco">
+            
+            <div id="textos">
+                <h1>Welcome aboard my friend</h1>
+                <p>just a couple of clicks and we start</p>
+            </div>
+            <img src="/images/menu.png" alt="menu" id="menu">
+            
+
+        </div>
         <div id="login">
             <h1>Welcome</h1>
             <div id="inputs">
@@ -26,7 +40,11 @@
             <div id="botoes">
                 <a href="/images/login.png" target="_blank">
                 <button type="button" class="blogin">Log in</button></a>
-                <p>Or</p>
+                
+                    <div class="linha" id="line1"></div>
+                    <div class="linha" id="line2"></div>
+                    <p id="or">Or</p>
+                
                 <div id="small">
                     <button id="google">Google</button>
                     <button id="gitlab">GitLab</button>
